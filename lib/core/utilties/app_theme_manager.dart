@@ -15,6 +15,45 @@ static ThemeData lightTheme = ThemeData(
   ),
   iconTheme: IconThemeData(
     size: 35
-  )
+  ),
+  textTheme: TextTheme(
+    headlineSmall: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 24,
+      color: ColorPallete.generalTextColor,
+    ),
+    titleLarge: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 20,
+      color: ColorPallete.generalTextColor,
+    ),
+    titleMedium: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 18,
+      color: ColorPallete.generalTextColor,
+    ),
+    titleSmall: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 16,
+      color: ColorPallete.generalTextColor,
+    ),
+    bodyMedium: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 14,
+      color: ColorPallete.generalTextColor,
+    ),
+    bodySmall: TextStyle(
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w500,
+      fontSize: 12,
+      color: ColorPallete.bodySmallTextColor,
+    ),
+  ),
+
 );
 }
